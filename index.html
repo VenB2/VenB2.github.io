@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=https://VenB2.github.io/LandingPage/index.html">
     <script type="text/javascript">
-        setTimeout(function(){
-            window.location.href = 'https://VenB2.github.io/LandingPage/index.html';
-        }, 0);
+        // Immediate redirection using relative path
+        document.addEventListener('DOMContentLoaded', function() {
+            window.location.href = './LandingPage/index.html';
+        });
     </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://VenB2.github.io/LandingPage/index.html">link</a> to our landing page.</p>
+    <p>If you are not redirected automatically, follow this <a href="./LandingPage/index.html">link</a> to our landing page.</p>
 </body>
 </html>

@@ -54,3 +54,11 @@ footer {
 .navigation ul li a:hover {
     background-color: #007bff;
 }
+.regular-link {
+    color: inherit; /* Or any color your links are */
+    text-decoration: none; /* Or as per your design */
+}
+
+.regular-link:hover {
+    text-decoration: underline; /* Or any hover effect you have for links */
+}

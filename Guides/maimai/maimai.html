@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <audio autoplay hidden>
-        <source src="welcome.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
+    
     <header>
         <nav class="navigation">
             <h1>maimai Guides</h1>
@@ -22,7 +19,17 @@
     </header>
     <main>
         <section class="hub">
-            <h2>Welcome to maimai🎵</h2>
+            <h2 id="welcomeAudio">Welcome to maimai🎵</h2>
+            <audio autoplay hidden>
+                <source src="welcome.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <script>
+                document.getElementById('welcomeText').addEventListener('click', function() {
+                    var audio = document.getElementById('welcomeAudio');
+                    audio.play();
+                });
+            </script>
         </section>
         <section class="topic">
             <article class="topic2">

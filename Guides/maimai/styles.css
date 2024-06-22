@@ -25,16 +25,27 @@ main {
     margin-bottom: 20px;
 }
 
-.topic {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.navigation ul {
+    list-style: none;
+    padding: 0;
 }
 
-.topic h3 {
-    color: #007bff;
+.navigation ul li {
+    display: inline;
+    margin-right: 10px;
 }
+
+.navigation ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #005ec3;
+}
+.navigation ul li a:hover {
+    background-color: #42484e;
+}
+
 
 .regular-link {
     color: inherit; /* Or any color your links are */
@@ -45,11 +56,47 @@ main {
     text-decoration: underline; /* Or any hover effect you have for links */
 }
 
-.topic p {
-    color: #333;
+.hub, .topics1, .topics2 {
+    margin-bottom: 20px;
+}
+.topic1 {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.topic a {
+
+.topic1 h3 {
+    color: #000000;
+}
+.topic2 {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.topic2 h3 {
+    color: #000000;
+}
+
+.topic1 p {
+    color: #333;
+}
+.topic2 p {
+    color: #333;
+}
+.topic1 a {
+    display: inline-block;
+    color: white;
+    background-color: #ffae23;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.topic2 a {
     display: inline-block;
     color: white;
     background-color: #007bff;
@@ -58,6 +105,7 @@ main {
     border-radius: 5px;
     margin-top: 10px;
 }
+
 
 footer {
     background-color: #333;

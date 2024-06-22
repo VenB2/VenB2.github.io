@@ -23,8 +23,14 @@ header {
 }
 
 .navigation ul li a {
+    display: inline-block;
+    padding: 10px 20px;
     color: white;
     text-decoration: none;
+    background-color: #3b3b3b;
+}
+.navigation ul li a:hover {
+    background-color: #414141;
 }
 
 .guides {
@@ -36,13 +42,29 @@ header {
     display: inline-block;
     margin: 10px;
     padding: 10px 15px;
-    background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.maimai-link {
+    background-color: #007bff; /* Red */
+}
+
+.chunithm-link {
+    background-color: #dcd400; /* Blue */
 }
 
 .guide-links a:hover {
-    background-color: #0056b3;
+    background-color: #414141;
+}
+.regular-link {
+    color: inherit; /* Or any color your links are */
+    text-decoration: none; /* Or as per your design */
+}
+
+.regular-link:hover {
+    text-decoration: underline; /* Or any hover effect you have for links */
 }

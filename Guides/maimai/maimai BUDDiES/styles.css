@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #ffae23;
     color: white;
     padding: 20px;
     text-align: center;
@@ -15,6 +15,26 @@ ul {
     list-style-type: none; /* This removes the bullet points */
     padding: 0;
     margin: 0;
+}
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #e49000;
+}
+.navigation ul li a:hover {
+    background-color: #005ec3;
 }
 
 main {
@@ -33,7 +53,7 @@ main {
 }
 
 .topic h3 {
-    color: #007bff;
+    color: #000000;
 }
 
 .regular-link {
@@ -52,7 +72,7 @@ main {
 .topic a {
     display: inline-block;
     color: white;
-    background-color: #007bff;
+    background-color: #ffae23;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ul {
+    list-style-type: none; /* This removes the bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.hub, .topics {
+    margin-bottom: 20px;
+}
+
+.topic {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.topic h3 {
+    color: #007bff;
+}
+
+.regular-link {
+    color: inherit; /* Or any color your links are */
+    text-decoration: none; /* Or as per your design */
+}
+
+.regular-link:hover {
+    text-decoration: underline; /* Or any hover effect you have for links */
+}
+
+.topic p {
+    color: #333;
+}
+
+.topic a {
+    display: inline-block;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

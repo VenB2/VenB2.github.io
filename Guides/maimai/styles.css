@@ -11,6 +11,11 @@ header {
     padding: 20px;
     text-align: center;
 }
+ul {
+    list-style-type: none; /* This removes the bullet points */
+    padding: 0;
+    margin: 0;
+}
 
 main {
     padding: 20px;
@@ -29,6 +34,15 @@ main {
 
 .topic h3 {
     color: #007bff;
+}
+
+.regular-link {
+    color: inherit; /* Or any color your links are */
+    text-decoration: none; /* Or as per your design */
+}
+
+.regular-link:hover {
+    text-decoration: underline; /* Or any hover effect you have for links */
 }
 
 .topic p {

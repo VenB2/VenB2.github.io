@@ -56,7 +56,9 @@ header {
 .chunithm-link {
     background-color: #dcd400; /* Blue */
 }
-
+.soundvoltex-link {
+    background-color: #ff00dd; /* Blue */
+}
 .guide-links a:hover {
     background-color: #414141;
 }
